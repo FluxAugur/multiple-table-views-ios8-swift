@@ -13,6 +13,8 @@
 		A7418B941A26C519005F3AE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7418B931A26C519005F3AE9 /* Images.xcassets */; };
 		A7418B971A26C519005F3AE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7418B951A26C519005F3AE9 /* LaunchScreen.xib */; };
 		A7418BA31A26C519005F3AE9 /* Multiple_Table_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7418BA21A26C519005F3AE9 /* Multiple_Table_ViewsTests.swift */; };
+		A7418BAF1A26C605005F3AE9 /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7418BAE1A26C605005F3AE9 /* AnimalTableViewController.swift */; };
+		A7418BB11A26C616005F3AE9 /* BreedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7418BB01A26C616005F3AE9 /* BreedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A7418B9C1A26C519005F3AE9 /* Multiple Table ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiple Table ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7418BA11A26C519005F3AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7418BA21A26C519005F3AE9 /* Multiple_Table_ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiple_Table_ViewsTests.swift; sourceTree = "<group>"; };
+		A7418BAE1A26C605005F3AE9 /* AnimalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimalTableViewController.swift; path = ../AnimalTableViewController.swift; sourceTree = "<group>"; };
+		A7418BB01A26C616005F3AE9 /* BreedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BreedTableViewController.swift; path = ../BreedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		A7418B891A26C519005F3AE9 /* Multiple Table Views */ = {
 			isa = PBXGroup;
 			children = (
+				A7418BB01A26C616005F3AE9 /* BreedTableViewController.swift */,
+				A7418BAE1A26C605005F3AE9 /* AnimalTableViewController.swift */,
 				A7418B8C1A26C519005F3AE9 /* AppDelegate.swift */,
 				A7418B8E1A26C519005F3AE9 /* ViewController.swift */,
 				A7418B901A26C519005F3AE9 /* Main.storyboard */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7418BAF1A26C605005F3AE9 /* AnimalTableViewController.swift in Sources */,
 				A7418B8F1A26C519005F3AE9 /* ViewController.swift in Sources */,
+				A7418BB11A26C616005F3AE9 /* BreedTableViewController.swift in Sources */,
 				A7418B8D1A26C519005F3AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
